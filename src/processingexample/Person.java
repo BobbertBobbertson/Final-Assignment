@@ -19,6 +19,7 @@ public class Person {
     private int width, height;
     int x;
     int y;
+    
     public Person(PApplet p, int x, int y, String name, int age, String imagePath){
         this.app = p;
         this.x = x;
